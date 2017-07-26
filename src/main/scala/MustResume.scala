@@ -8,6 +8,7 @@ class ParentActor extends Actor {
 
 class ChildActor extends Actor {
   def receive = {
+    case s: String => println(s)
     case e: Exception => throw e
   }
 }
