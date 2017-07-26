@@ -1,0 +1,3 @@
+object PrimeNumberSearch extends App {
+
+}
